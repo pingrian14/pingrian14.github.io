@@ -42,6 +42,16 @@ html {
     visibility: visible;
 }
 
+.box:hover {
+    background-color: #5a9bc8;
+    
+}
+
+.box:active {
+    background-color: #a7c6dc;
+    
+}
+
 /* for boxes with the topic title */
 .boxTitle {
     /* border:5px solid black; */
