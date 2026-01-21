@@ -1,0 +1,134 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    background-color: black;
+}
+
+
+ /* for the board containing the boxes */
+.board {
+    display:grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    gap:1em;
+    height: 800px;
+
+    width:100%;
+    height:100%;
+    position: absolute;
+
+    background-color: black;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+/* for boxes with the money */
+.box {
+    background-color: #a7c6dc;
+    color:white;
+    font-family: verdana;
+    font-weight:bold;
+    font-size:1.5rem;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    padding:1.5rem;
+    height:50px;
+
+    visibility: visible;
+}
+
+/* for boxes with the topic title */
+.boxTitle {
+    /* border:5px solid black; */
+    background-color: #5a9bc8;
+    font-family: verdana;
+    font-weight:bold;
+    font-size:1.5rem;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    color:white; 
+    padding:2rem;
+    height:50px;
+}
+
+.playerInfo {
+    background-color: #a7c6dc;
+    border: 12px solid white;
+    border-radius:12px;
+    color:black;
+}
+
+/* the whole question screen */
+.questionBoard {
+    background-color:black;
+    visibility:hidden;
+    z-index:10;
+    padding:20px;
+
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer {
+    height:100px;
+    width:100px;
+    border: 12px solid white;
+    background-color:#a7c6dc;
+    border-radius: 50%;
+
+    font-weight: bold;
+    font-size: 180%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputDiv {
+    padding:2rem;
+    visibility: hidden;
+
+}
+
+.inputBox {
+    width:800px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.earlyNotifyer {
+    color: #46eb9b;
+}
+
+.key {
+    background-color: #5a9bc8;
+    border: 3px solid #5a9bc8;
+    box-shadow:5px 5px #a7c6dc; 
+}
+
+/* used to make something visible or not */
+.is-hidden {
+    visibility:visible;
+}
+
+/* used to make something invisible */
+.remove {
+    visibility:hidden;
+}
