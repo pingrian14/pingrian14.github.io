@@ -40,6 +40,8 @@ let masterlist = [
 ]
 
 
+
+
 let answerList = [
     ["Math",
         [["linear", "linear function"], ["192"], ["heptagon"]],
@@ -76,6 +78,8 @@ let answerList = [
         [["death valley", "death valley desert"], ["slovakia"], ["norway"], ["new guinea"]],
         [["kazakhstan", "kyrgyzstan", "tajikistan", "turkmenistan", "uzbekistan"], ["qatar"]],
     ]
+
+
 
 
 ]
@@ -1004,6 +1008,7 @@ let timerRanOut = false;
 
 
 function displayQuestion(element, question, iIn) {
+    timer.innerHTML = "..."
     tester = 1;
     console.log(`iIn right now is ${iIn}`);
     console.log(`Question length is ${question.length}`);
@@ -1012,8 +1017,6 @@ function displayQuestion(element, question, iIn) {
     //runs at the final letter
     if (iIn === question.length) {
         tester = 0;
-
-
 
 
         i = iIn;
@@ -1049,9 +1052,6 @@ document.addEventListener("keydown", (ev) => {
     //only runs when on the question page
     if (questionShowing === true) {
 
-
-
-
         //sets of flag if key is pressed while the question is still playing out
         if (tester === 1) {
 
@@ -1059,13 +1059,12 @@ document.addEventListener("keydown", (ev) => {
             if (keysList.includes(key) && !earlyPlayerList.includes(key)) {
 
 
-
-
                 console.log(`${key} pressed early`);
                 early =  true;
                 //no one else can type for now
                 questionShowing = false;
                 inputShowing = true;
+                stopCounter = false;
 
                 getPlayer(key);
                 displayInput();
@@ -1075,12 +1074,11 @@ document.addEventListener("keydown", (ev) => {
             if (keysList.includes(key) && !earlyPlayerList.includes(key)) {
 
 
-
-
                 if (early === false) {
                     console.log("Not pressed early");
                     questionShowing = false;
                     inputShowing = true;
+                    stopCounter = false;
 
                     getPlayer(key);
                     displayInput();
@@ -1166,18 +1164,14 @@ function checkGuess() {
         displayQuestion(textArea, question, i);
     }
    
-   
 }
-
-
-
-
 
 
 function guessedCorrectly() {
    
     console.log("Guess is correct.");
     earlyNotifyer.innerHTML = `${guesser} is correct! +$${addAmount}.`
+    early = false;
     setTimeout(backToSelection, 5000);
 
 
@@ -1188,21 +1182,15 @@ function guessedCorrectly() {
 function backToSelection() {
     questionBoard.classList.toggle("is-hidden");
 
-
-
-
     //resets list so there's no early players
     earlyPlayerList = [];
 }
-
 
 
 // ------------- Countdown function --------------
 
 
 const timer = document.getElementById("timer");
-
-
 
 
 function countdown1(auto) {
@@ -1224,7 +1212,9 @@ function countdown2() {
             timer.innerHTML = 15;
             console.log("yes");
 
+
         } else {
+
 
             if (stopCounter === true) {
                 return;
