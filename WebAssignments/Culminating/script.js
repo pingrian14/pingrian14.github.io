@@ -1,72 +1,66 @@
 // -----------------------------    List of Topics & Questions      ----------------------------------
 
-
 let masterlist = [
     ["Math",
         ["Name this function: f(x)=8(x-2)+5", "What is 6 x 32?", "What is the name of the 2D shape that has 7 sides?"],
         ["What are 2D shapes with four sides called?", "A drawer contains 27 t-shirts of four colours. 12 are green, 3 are blue, 6 are red, and the rest are gray. What is the ratio of green t-shirts to gray t-shirts in SIMPLEST form? (HINT: answer should look like #:#)"],
-        ["What is the name of the theorem used to calculate an unknown side length of a right angle triangle when given the other two side lengths?", "Solve: 13 - (5 + 12 / -3) * -9"],
+        ["What is the name of the theorem used to calculate an unknown side length of a right angle triangle when given the other two side lengths?", "Solve: 13 - (5 + 12 / -3) * -9", "In which area of math are the phrases sine, cosine, and tangent used?"],
         ["What do you call a function with a degree of five?", "Enter the equation that proves a function has ODD symmetry in terms of f(x)."],
-        ["Enter the first 5 digits of π.", "#"],
+        ["Enter the first 5 digits of π.", "Fill in the blank. Trillion, Quadrillion, Quintillion, Sextillion, Septillion, Octillion, _________."],
     ],
     ["90s Songs",
         ["Which Celine Dion song won Best Original Song at the 1998 Oscars?", "Name the song with the lyrics: \"Today is gonna be the day that / They're gonna throw it back to you / By now you should've somehow / Realized what you gotta do\"", "Which Irish band had hits with \"Linger\", \"Salvation\", and \"Zombie\"?", "Name the 1991 song with the lyrics: \"With the lights out, it's less dangerous / Here we are now, entertain us / I feel stupid and contagious / Here we are now, entertain us\""],
-        ["What trio of brothers went to No. 1 on the Billboard Hot 100 with the 1997 song \"MMMBop\"? ", "What John Michael Montgomery song did the group All-4-One score a hit with in 1994?", "What is the name of the SpiceGirls\' number one hit in the 90s?", "Which Backstreet Boys song featured a haunted house-themed music video?", "What was the first hip-hop single to reach #1 on the Billboard Hot 100 in the 1990s?"],
-        ["What song was released as a single in 1994, often associated with the movie Batman Forever?", "What was the best selling single of the 1990s? (HINT: The artist is Elton John)"],
-        ["What song did Jonny Greenwood from Radiohead attempt to sabotage with distorted electric guitar blasts right before the chorus?", "Name the song with the lyrics: \"Anytime I need to see your face, I just close my eyes / And I am taken to a place where your crystal mind / And magenta feelings take up shelter in the base of my spine / Sweet like a chic-a-cherry cola\"", "What heavy metal song, inspired by crib death, became one of metal\'s greatest anthems?"],
-        ["#"],
+        ["What trio of brothers went to No. 1 on the Billboard Hot 100 with the 1997 song \"MMMBop\"? ", "What John Michael Montgomery song did the group All-4-One score a hit with in 1994?", "What is the name of the Spice Girls\' number one hit in the 90s?", "Which Backstreet Boys song featured a haunted house-themed music video?", "What was the first hip-hop single to reach #1 on the Billboard Hot 100 in the 1990s?"],
+        ["Which song by Seal is often associated with the movie Batman Forever?", "Finish the lyrics of this song\'s chorus: \"And I don\'t want the world to see me / Cause I don\'t think that they\'d understand / When everything\'s made to be broken / ____________________________\""],
+        ["What song did Jonny Greenwood from Radiohead attempt to sabotage with distorted electric guitar blasts right before the chorus?", "Which Michael Jackson song became #1 in Billboard Top 100 in 1995?", "What heavy metal song, inspired by crib death, became one of metal\'s greatest anthems?"],
+        ["What year was Say My Name by Destiny\'s child released?", "The song Don\'t Speak is of which No Doubt album?", "Name the song with the lyrics: \"Anytime I need to see your face, I just close my eyes / And I am taken to a place where your crystal mind\""],
     ],
     ["Movies",
         ["John Travolta plays Danny Zuko from what movie?", "What are the tiny yellow helpers of Gru with goggles in Despicable Me called?", "Name one of Riley's main five emotions from Inside Out."],
         ["What was the movie released in 1988 that is heavily debated on whether or not it is a Christmas movie?", "What colour pill does Neo from The Matrix take?", "What movie presents a red pill and a blue pill to the protagonist?"],
-        ["Who is the half-blood prince from Harry Potter?", "What is the name of the store that Buddy the Elf works in?", "What was Disney's 50th anniversary animated movie"],
-        ["The song A Thousand Miles became heavily connected to what movie when Terry Crews sang this in his car?", "In The Purge, how long does the annual purge last for?"],
-        ["Which hand does Thanos use to wear the Infinity Gauntlet?"],
+        ["Who is the half-blood prince from Harry Potter?", "Who was the prisoner of Azkaban from Harry Potter?", "What is the name of the store that Buddy the Elf works in?", "What was Disney's 50th anniversary animated movie?", "What is the name of the German a cappella group that the Bellas competed against in Pitch Perfect 2?"],
+        ["The song A Thousand Miles became heavily associated with what movie when Terry Crews sang this in his car?", "In The Purge, how many hours does the annual purge last for?","How long do people have left to live after watching the video tape in The Ring?"],
+        ["Which hand does Thanos use to wear the Infinity Gauntlet?", "What do Katniss and Peeta attempt to poison themselves with in The Hunger Games?", "What is the first and last name of the actor who played Spider-Man in the first live-action movie?"],
     ],
     ["Animals",
-        ["What bird is a symbol for peace?", "What's the world's most intelligent dog breed?", "Name the body part of a dog's body that is as unique as a human's fingerprint."],
+        ["What bird is a symbol for peace?", "Which dog breed is recognized by the world as the most intelligent?", "Name the body part of a dog's body that is as unique as a human's fingerprint."],
         ["What do you call a group of crows?", "What is the term for a baby kangaroo?"],
         ["Which breed of dog is historically known for being the mascot of firefighters?", "What do you call a group of porcupines?", "What are a group of pigs called?"],
-        ["What is a female donkey called?", "What type of bird has eyes is bigger than its brain?"],
-        ["How many hearts does an octopus have?", "What animal can only eat when its head is upside down?", "pink panda question search *****"],
+        ["What is a female donkey called?", "What type of bird has eyes bigger than its brain?"],
+        ["How many hearts does an octopus have?", "What animal can only eat when its head is upside down?", "The fur of a baby panda turns slightly pink due a chemical reaction caused by the mother panda\'s what?"],
        
     ],
     ["The World",
-        ["What is the largest country in the world by land mass?", "How many continents are in the world?"],
-        ["What state are the Rocky Mountains, also known as the Rockies, located?", "What country is shaped like a boot on the map?"],
-        ["What European country is well-known for their tulips?", "Name any one of the five nordic(?) countries"],
-        ["#"],
-        ["#"],
+        ["What is the largest country in the world by land mass?", "How many continents are in the world?", "What province of Canada is the city St. John\'s located in?"],
+        ["What state are the Rocky Mountains, also known as the Rockies, located in?", "What country is shaped like a boot on the map?", "What is the capital of Germany?"],
+        ["Which European country is well-known for their tulips?", "Name any one of the five Nordic countries.", "What is the highest mountain in Africa?"],
+        ["Which desert holds the record for highest air temperature ever measured?", "Bratislava is the capital of what country?", "Which European country is known for its fjords and is the homeland of the Vikings?", "What is the second-largest island in the world and is part of Indonesia?"],
+        ["Name one of the countries that end with -stan that are NOT Pakistan or Afghanistan.", "What is the only country in the world that begins with the letter Q?"],
     ]
-
-
-
 ]
-
-
 
 
 let answerList = [
     ["Math",
-        [["linear", "linear function", "the linear function"], ["192"], ["heptagon"]],
-        [["quadrilateral"], ["2:1"]],
-        [["pythagorean theory", "pythagorean theorum", "pythagorean"], ["22"]],
+        [["linear", "linear function"], ["192"], ["heptagon"]],
+        [["quadrilateral", "quadrilaterals"], ["2:1"]],
+        [["pythagorean theory", "pythagorean theorum", "pythagorean"], ["22"], ["Trigonometry"]],
         [["quintic", "quintic function"], ["f(-x)=-f(x)", "f(-x) = -f(x)", "f(-x) =-f(x)", "f(-x)= -f(x)", "-f(x)=f(-x)", "-f(x) = f(-x)", "-f(x) =f(-x)", "-f(x)= f(-x)"]],
-        [["3.1415"], ["#"]],
+        [["3.1415"], ["nonillion"]],
     ],
     ["90s Songs",
         [["my heart will go on"], ["wonderwall"], ["the cranberries"], ["smells like teen spirit"]],
         [["the hanson brothers", "hanson brothers", "hanson"], ["i swear"], ["wannabe"], ["backstreet's back", "backstreets back"], ["ice ice baby"]],
-        [["kiss from a rose"], ["candle in the wind", "candle in the wind 1997"]],
-        [["creep"], ["i want you"], ["enter sandman"]],
-        [["#"]],
+        [["kiss from a rose"], ["i just want you to know who i am"]],
+        [["creep"], ["you are not alone"], ["enter sandman"]],
+        [["1999"], ["tragic kingdom"], ["i want you"]],
     ],
     ["Movies",
         [["greece"], ["minions", "minion"], ["joy", "sadness", "fear", "anger", "disgust"]],
         [["die hard"], ["red"], ["the matrix"]],
-        [["severus snape", "snape", "severus", "professor snape", "prof snape", "prof. snape"], ["gimbels"], ["tangled"]],
-        [["white chicks"], ["12", "twelve", "12 hours", "twelve hours", "12h", "12hrs"]],
-        [["left"]],
+        [["severus snape", "snape", "severus", "professor snape", "prof snape", "prof. snape"], ["sirius black", "sirius"], ["gimbels"], ["tangled"], ["das sound machine", "dsm"]],
+        [["white chicks"], ["12", "twelve", "12 hours", "twelve hours", "12h", "12hrs"], ["7 days", "seven days", "7days"]],
+        [["left"], ["nightlock"], ["nicholas hammond"]],
     ],
     ["Animals",
         [["dove", "the dove", "a dove"], ["border collie"], ["nose"]],
@@ -76,16 +70,15 @@ let answerList = [
         [["3", "three"], ["flamingo"], ["saliva"]],
     ],
     ["The World",
-        [["russia"], ["7"]],
-        [["colorado"], ["italy"]],
-        [["the netherlands", "netherlands"], ["denmark", "finland", "iceland", "norway", "sweden"]],
-        [["#"]],
-        [["#"]],
+        [["russia"], ["7"], ["newfoundland and labrador"]],
+        [["colorado"], ["italy"], ["berlin"]],
+        [["the netherlands", "netherlands"], ["denmark", "finland", "iceland", "norway", "sweden"], ["mount kilimanjaro", "kilimanjaro"]],
+        [["death valley", "death valley desert"], ["slovakia"], ["norway"], ["new guinea"]],
+        [["kazakhstan", "kyrgyzstan", "tajikistan", "turkmenistan", "uzbekistan"], ["qatar"]],
     ]
 
 
 ]
-
 
 
 
@@ -1188,11 +1181,7 @@ function guessedCorrectly() {
     setTimeout(backToSelection, 5000);
 
 
-
-
 }
-
-
 
 
 //hides question div after 5 seconds
@@ -1235,9 +1224,7 @@ function countdown2() {
             timer.innerHTML = 15;
             console.log("yes");
 
-
         } else {
-
 
             if (stopCounter === true) {
                 return;
@@ -1253,3 +1240,4 @@ function countdown2() {
 
 
 }
+
